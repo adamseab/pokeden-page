@@ -19,5 +19,5 @@ module:
 
 enableEmoji: true
 disableKinds: ["taxonomy", "term"]
-languageCode: "en-us"
+languageCode: "en-uk"
 enableRobotsTXT: true

@@ -2,6 +2,22 @@
 .hugo_build.lock
 **/resources/_gen/
 public
+hugo_stats.json
 
 # Apple stuff
 .DS_Store
+Thumbs.db
+
+# Node modules (if using npm for themes or scripts)
+node_modules/
+
+# VSCode or IDE settings (optional but useful)
+.vscode/
+.idea/
+
+# Logs or temp files
+*.log
+
+# Optional: Netlify or Amplify build folders
+.netlify/
+.amplify/
