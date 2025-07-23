@@ -8,6 +8,8 @@ Built with ❤️ using [Hugo](https://gohugo.io/) and the [L1nkr theme](https:/
 
 ## 🔗 Live Site
 
+IGNORE THIS - TESTING WITH GITHUB PAGES 
+
 [🌐 pokeden.link](https://your-amplify-url.com)  
 _(Update this with the live Amplify link once deployed!)_
 
