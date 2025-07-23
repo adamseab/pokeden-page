@@ -3,62 +3,35 @@
 ############################
 
 author:
-  name: adamseab
-  image: author.png
-  greeting: "Your new L1nkr site :tada:"
-  icon: ":wave:"
+  name: Dim's Poke Den
+  image: magikarpediem.jpg
+  greeting: "Welcome to the Den 🫶"
+  icon: ":heart_hands:"
 
 ############################
 ## Links
 ############################
 
 links:
-  - github: https://github.com/adamseab/pokeden-page
-  - link: https://github.com/adamseab/pokeden-page#readme
+  # - github: https://github.com/adamseab/pokeden-page
+  - whatnot: https://www.whatnot.com/s/otcSKYDV
   # - website:
   # - x-twitter:
-  # - mastodon:
-  # - linkedin:
-  # - instagram:
-  # - reddit:
-  # - telegram:
+  - facebook: https://www.facebook.com/people/Dims-PokeDen/61573756907879/
+  - instagram: https://instagram.com/dims_pokeden
   # - whatsapp:
-  # - signal:
-  # - codepen:
-  # - dev:
   # - email:
   # - discord:
-  # - orcid:
-  # - slack:
-  # - stack-overflow:
   # - twitch:
-  # - patreon:
-  # - soundcloud:
-  # - dribbble:
-  # - stack-exchange:
-  # - tiktok:
+  - tiktok: https://www.tiktok.com/@dims.pokeden
   # - youtube:
-  # - keybase:
-  # - flickr:
-  # - tumblr:
-  # - kickstarter:
   # - snapchat:
-  # - bluesky:
-  # - bitbucket:
-  # - bandcamp:
   # - etsy:
   # - spotify:
-  # - pinterest:
-  # - strava:
-  # - untappd:
-  # - skype:
-  # - medium:
-  # - foursquare:
   # - apple:
   # - amazon:
   # - google:
   # - paypal:
-  # - windows:
 
 ############################
 ## Colunms of Links
@@ -72,7 +45,7 @@ columns: 2
 ###########################
 
 # add the icon name to each icon
-icontext: true
+icontext: false
 
 ############################
 ## Tooltips
@@ -85,7 +58,7 @@ tooltip: false
 ## OpenGraph & Twitter Cards
 ###############################
 
-title: pokeden-page
-description: "Demo site build with L1nkr & Hugo"
+title: Dim's Poké Den
+description: "Link tree for Dim's Poké Den - on Whatnot and based in Morriston, Swansea!"
 images:
-  - thumbnail.png
+  - magikarpediem.jpg
