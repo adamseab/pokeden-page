@@ -1,19 +1,14 @@
 # 🎴 Dim's Poké Den — Link Page
 
-Welcome to the link hub for **Dim's Poke Den** — a friendly, community-driven Pokémon card shop based in the UK. This page serves as a simple, stylish way to direct cultists and followers to our social media and live selling platforms.
+Welcome to the link tree page for **Dim's Poke Den** — a friendly, community-driven Pokémon card shop based in Swansea. This page serves as a simple, clean way to direct our cultists and followers new and old to our social media and live selling platforms.
 
-Built with ❤️ using [Hugo](https://gohugo.io/) and the [L1nkr theme](https://themes.gohugo.io/themes/l1nkr/), this site is deployed via [AWS Amplify](https://aws.amazon.com/amplify/) for speed, reliability, and ease of updates.
+Built with ❤️ using [Hugo](https://gohugo.io/) and the [L1nkr theme](https://themes.gohugo.io/themes/l1nkr/), this site is deployed via Github Actions.
 
 ---
 
 ## 🔗 Live Site
 
-IGNORE THIS - TESTING WITH GITHUB PAGES 
-
-[🌐 pokeden-github.link](https://adamseab.github.io/pokeden-page/) 
-
-[🌐 pokeden.link](https://your-amplify-url.com)  
-_(Update this with the live Amplify link once deployed!)_
+[🌐 pokeden.link](https://adamseab.github.io/pokeden-page/)  
 
 ---
 
@@ -36,8 +31,7 @@ Catch us on:
 |---------------|----------------------------------|
 | [Hugo](https://gohugo.io/)        | Static site generator             |
 | [L1nkr Theme](https://themes.gohugo.io/themes/l1nkr/) | Linktree-style theme             |
-| [AWS Amplify](https://aws.amazon.com/amplify/) | Hosting & CI/CD                  |
-| GitHub        | Version control & deployment    |
+| GitHub        | Version control & deployment via Actions    |
 
 ---
 
