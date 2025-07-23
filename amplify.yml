@@ -6,14 +6,17 @@ frontend:
         - echo "Installing Hugo and dependencies..."
         - export HUGO_VERSION=0.148.0
         - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz | tar -xz
-        - mv hugo /usr/local/bin/
+        # Install Hugo to a directory where we have permissions
+        - mkdir -p $HOME/bin
+        - mv hugo $HOME/bin/
+        - export PATH=$HOME/bin:$PATH
         - hugo version
         # Fix for Go module cache permission issue
-        - export GOPATH=/tmp/go
+        - export GOPATH=$HOME/go
         - mkdir -p $GOPATH
         - export GO111MODULE=on
-        # Install any other dependencies your site needs
-        # - npm ci
+        # Disable the problematic cache mechanism
+        - export _CUSTOM_BUILD_DISABLE_CACHE=true
     build:
       commands:
         - echo "Building Hugo site..."
@@ -23,7 +26,9 @@ frontend:
     files:
       - '**/*'
   cache:
-    paths:
-      - node_modules/**/*
-      - /tmp/go/**/*  # Cache the Go modules in our custom GOPATH
-      - resources/_gen/**/*  # Hugo's cache for generated resources
+    paths: []  # Explicitly disable cache to avoid the 404 error
+  customHeaders:
+    - pattern: '**/*'
+      headers:
+        - key: 'Cache-Control'
+          value: 'max-age=86400'
