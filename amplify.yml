@@ -3,20 +3,25 @@ frontend:
   phases:
     preBuild:
       commands:
-        - echo "Installing Hugo and dependencies..."
+        - echo "Installing Go..."
+        - export GO_VERSION=1.24.2
+        - curl -L https://golang.org/dl/go${GO_VERSION}.linux-amd64.tar.gz | tar -xz
+        - mkdir -p $HOME/bin
+        - export PATH=$HOME/bin:$HOME/go/bin:$PWD/go/bin:$PATH
+        - mv go $HOME/
+        - export GOPATH=$HOME/gopath
+        - mkdir -p $GOPATH
+        - go version
+        
+        - echo "Installing Hugo..."
         - export HUGO_VERSION=0.148.0
         - curl -L https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz | tar -xz
-        # Install Hugo to a directory where we have permissions
-        - mkdir -p $HOME/bin
         - mv hugo $HOME/bin/
-        - export PATH=$HOME/bin:$PATH
         - hugo version
-        # Fix for Go module cache permission issue
-        - export GOPATH=$HOME/go
-        - mkdir -p $GOPATH
-        - export GO111MODULE=on
-        # Disable the problematic cache mechanism
+        
+        - echo "Setting up environment..."
         - export _CUSTOM_BUILD_DISABLE_CACHE=true
+        - export GO111MODULE=on
     build:
       commands:
         - echo "Building Hugo site..."
