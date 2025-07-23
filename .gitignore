@@ -8,9 +8,6 @@ hugo_stats.json
 .DS_Store
 Thumbs.db
 
-# Node modules (if using npm for themes or scripts)
-node_modules/
-
 # VSCode or IDE settings (optional but useful)
 .vscode/
 .idea/
@@ -21,3 +18,7 @@ node_modules/
 # Optional: Netlify or Amplify build folders
 .netlify/
 .amplify/
+
+# Font stuff
+LuckiestGuy-Regular.ttf
+font.txt
