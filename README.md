@@ -18,10 +18,11 @@ _(Update this with the live Amplify link once deployed!)_
 We don’t run a full online store — instead, we focus on community and conversation.  
 Catch us on:
 
-- 🟦 [Facebook](https://facebook.com/YOUR_PAGE)
-- 📸 [Instagram](https://instagram.com/YOUR_PAGE)
-- 💬 [Whatnot](https://whatnot.com/YOUR_PAGE)
-- 🛍️ [In-Store](#) — come say hi in person!
+- 🟦 [Facebook](https://www.facebook.com/people/Dims-PokeDen/61573756907879/)
+- 📸 [Instagram](https://instagram.com/dims_pokeden)
+- 💬 [Whatnot](https://www.whatnot.com/s/otcSKYDV)
+- 📱 [TikTok](https://www.tiktok.com/@dims.pokeden)
+- 🛍️ [In-Store](#) — come say hi in person in Morriston, Swansea!
 
 ---
 
