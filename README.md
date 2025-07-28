@@ -21,7 +21,7 @@ Catch us on:
 - 📸 [Instagram](https://instagram.com/dims_pokeden)
 - 💬 [Whatnot](https://www.whatnot.com/s/otcSKYDV)
 - 📱 [TikTok](https://www.tiktok.com/@dims.pokeden)
-- 🛍️ [In-Store](#) — come say hi in person in Morriston, Swansea!
+- 🛍️ [In-Store](https://maps.app.goo.gl/DZgF57EgJSzztfz98) — come say hi in person in Morriston, Swansea! (At David Michael Jewellers)
 
 ---
 
